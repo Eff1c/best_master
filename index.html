@@ -1,92 +1,108 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Best Master - Шиномонтаж</title>
-  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2972/2972101.png">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .slider-container { position: relative; overflow: hidden; }
-    .slider-track { display: flex; transition: transform 0.5s ease; }
-    .slide { min-width: 100%; flex-shrink: 0; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Master - Шиномонтаж</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/2972/2972101.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .slider-container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slider-track {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .slide {
+            min-width: 100%;
+            flex-shrink: 0;
+        }
+    </style>
 </head>
 <body class="bg-black text-white font-sans">
-  <!-- Шапка -->
-  <header class="flex items-center justify-between p-4 bg-red-700">
+<!-- Шапка -->
+<header class="flex items-center justify-between p-4 bg-red-700">
     <div class="flex items-center space-x-2">
-      <img src="https://cdn-icons-png.flaticon.com/512/2972/2972101.png" alt="Шина" class="w-8 h-8">
-      <span class="font-bold text-xl">Best Master</span>
+        <img src="https://cdn-icons-png.flaticon.com/512/2972/2972101.png" alt="Шина" class="w-8 h-8">
+        <span class="font-bold text-xl">Best Master</span>
     </div>
-  </header>
+</header>
 
-  <!-- Слайдер -->
-  <section class="slider-container w-full h-80">
+<!-- Слайдер -->
+<section class="slider-container w-full h-80">
     <div id="sliderTrack" class="slider-track">
-      <img src="best_master.avif" class="slide object-cover w-full h-80" alt="Slide 1">
-      <img src="best_master_2.avif" class="slide object-cover w-full h-80" alt="Slide 2">
-      <img src="best_master_3.avif" class="slide object-cover w-full h-80" alt="Slide 3">
+        <img src="best_master.avif" class="slide object-cover w-full h-80" alt="Slide 1">
+        <img src="best_master_2.avif" class="slide object-cover w-full h-80" alt="Slide 2">
+        <img src="best_master_3.avif" class="slide object-cover w-full h-80" alt="Slide 3">
     </div>
-  </section>
+</section>
 
-  <!-- Контакти -->
-  <section id="contacts" class="p-6 text-center">
+<!-- Контакти -->
+<section id="contacts" class="p-6 text-center">
     <h2 class="text-2xl font-bold mb-4">Зв'язатися з нами</h2>
     <p class="mb-2">Тел: <a href="tel:+380988900604" class="text-red-500">+38 (098) 890-06-04</a></p>
     <p class="mb-2">Тел: <a href="tel:+380958944504" class="text-red-500">+38 (095) 894-45-04</a></p>
+    <br/>
     <div class="flex justify-center space-x-6">
-      <a href="#" class="hover:text-red-500">Facebook</a>
-      <a href="#" class="hover:text-red-500">Instagram</a>
-      <a href="#" class="hover:text-red-500">Telegram</a>
+        <a href="https://t.me/DYCBRRR" target="_blank"
+           class="inline-flex items-center justify-center bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-200">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="w-6 h-6 mr-2">
+            Запланувати візит
+        </a>
     </div>
-  </section>
+</section>
 
-  <!-- Послуги -->
-  <section id="services" class="p-6 bg-gray-900">
+<!-- Послуги -->
+<section id="services" class="p-6 bg-gray-900">
     <h2 class="text-2xl font-bold mb-4 text-center">Наші послуги</h2>
     <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
-      <li class="p-4 bg-black rounded-lg shadow">Заміна шин</li>
-      <li class="p-4 bg-black rounded-lg shadow">Балансування</li>
-      <li class="p-4 bg-black rounded-lg shadow">Ремонт проколів</li>
-      <li class="p-4 bg-black rounded-lg shadow">Викатка / рихтування дисків</li>
-      <li class="p-4 bg-black rounded-lg shadow">Датчики тиску TMPS</li>
-      <li class="p-4 bg-black rounded-lg shadow">Продаж нових та вживаних шин</li>
-      <li class="p-4 bg-black rounded-lg shadow">Продаж вживаних дисків</li>
-      <li class="p-4 bg-black rounded-lg shadow">Зняття / висверлювання секреток</li>
+        <li class="p-4 bg-black rounded-lg shadow">Заміна шин</li>
+        <li class="p-4 bg-black rounded-lg shadow">Балансування</li>
+        <li class="p-4 bg-black rounded-lg shadow">Ремонт проколів</li>
+        <li class="p-4 bg-black rounded-lg shadow">Викатка / рихтування дисків</li>
+        <li class="p-4 bg-black rounded-lg shadow">Датчики тиску TMPS</li>
+        <li class="p-4 bg-black rounded-lg shadow">Продаж нових та вживаних шин</li>
+        <li class="p-4 bg-black rounded-lg shadow">Продаж вживаних дисків</li>
+        <li class="p-4 bg-black rounded-lg shadow">Зняття / висверлювання секреток</li>
     </ul>
-  </section>
+</section>
 
-  <!-- Філіали -->
-  <section id="branches" class="p-6">
+<!-- Філіали -->
+<section id="branches" class="p-6">
     <h2 class="text-2xl font-bold mb-6 text-center">Наші філіали</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <div>
-        <p class="font-semibold mb-2 text-center md:text-left">Луцьк, вул. Карбишева, 2</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5483757855222!2d25.3777133!3d50.776109399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47259777c8fd431b%3A0x99b0043011b9dfcc!2sBest%20Master!5e1!3m2!1suk!2sua!4v1759249428706!5m2!1suk!2sua" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
-      <div>
-        <p class="font-semibold mb-2 text-center md:text-left">Гірка Полонка, вул. Луцька</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3283.7251981646014!2d25.280730676572155!3d50.702222171641395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDQyJzA4LjAiTiAyNcKwMTYnNTkuOSJF!5e1!3m2!1suk!2sua!4v1759249673628!5m2!1suk!2sua" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </div>
+        <div>
+            <p class="font-semibold mb-2 text-center md:text-left">Луцьк, вул. Карбишева, 2</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5483757855222!2d25.3777133!3d50.776109399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47259777c8fd431b%3A0x99b0043011b9dfcc!2sBest%20Master!5e1!3m2!1suk!2sua!4v1759249428706!5m2!1suk!2sua"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <p class="font-semibold mb-2 text-center md:text-left">Гірка Полонка, вул. Луцька</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3283.7251981646014!2d25.280730676572155!3d50.702222171641395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTDCsDQyJzA4LjAiTiAyNcKwMTYnNTkuOSJF!5e1!3m2!1suk!2sua!4v1759249673628!5m2!1suk!2sua"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- Footer -->
-  <footer class="p-4 bg-red-700 text-center">
+<!-- Footer -->
+<footer class="p-4 bg-red-700 text-center">
     <p>&copy; 2025 Best Master. Всі права захищені.</p>
-  </footer>
+</footer>
 
-  <script>
+<script>
     // Примітивний автослайдер
     let index = 0;
     const track = document.getElementById('sliderTrack');
     const slides = track.children.length;
 
     setInterval(() => {
-      index = (index + 1) % slides;
-      track.style.transform = `translateX(-${index * 100}%)`;
+        index = (index + 1) % slides;
+        track.style.transform = `translateX(-${index * 100}%)`;
     }, 3000);
-  </script>
+</script>
 </body>
 </html>
